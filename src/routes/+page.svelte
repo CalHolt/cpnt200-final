@@ -1,6 +1,7 @@
 <script>
   export let data;
   import Header from '../lib/components/Header.svelte';
+  import Footer from '../lib/components/Footer.svelte';
 </script>
 
 <Header />
@@ -46,3 +47,4 @@
     padding-top: 13rem;
   }
 </style>
+<Footer />
