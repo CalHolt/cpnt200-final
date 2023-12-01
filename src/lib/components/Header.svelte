@@ -10,7 +10,7 @@
    
     text-align: center;
 
-    font-family: fantasy;
+    font-family:'Courier New', Courier, monospace;
     font-size: 4rem;
     font-weight: bolder;
     

@@ -38,7 +38,7 @@
   h3 {
     z-index: -1;
 
-    font-family: fantasy;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 7rem;
 
     color: white;
