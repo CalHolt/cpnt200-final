@@ -1,6 +1,10 @@
 <script>
   export let data;
+  import Header from '../lib/components/Header.svelte';
 </script>
+
+<Header />
+<slot />
 
 <ul>
   {#each data.blog as post}
