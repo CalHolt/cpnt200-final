@@ -16,7 +16,9 @@
 
 <ul>
   {#each data.blog as post}
+  <a href="/{post.slug}">
    <h1>{post.blog_title}</h1> 
+  </a>
   {/each}
 </ul>
 
