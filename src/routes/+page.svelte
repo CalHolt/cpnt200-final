@@ -14,13 +14,16 @@
   </span>
 </div>
 
-<ul>
+
   {#each data.blog as post}
+  <div class="card">
   <a href="/{post.slug}">
    <h1>{post.blog_title}</h1> 
+   <h2>{post.blog_author}</h2>
   </a>
+</div>
   {/each}
-</ul>
+
 
 <style>
   .hero-section-image {
@@ -47,6 +50,13 @@
     margin: auto;
 
     padding-top: 13rem;
+  }
+  .card {
+    background-color: brown;
+  }
+  .card:hover {
+    background-color: aqua;
+
   }
 </style>
 <Footer />
