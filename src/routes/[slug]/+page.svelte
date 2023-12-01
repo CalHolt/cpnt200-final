@@ -1,4 +1,8 @@
 <script>
   export let data;
 </script>
-<h1>{data.blog_title}</h1>
+<h1>{data.title}</h1>
+<p>{data.author}</p>
+<p>{data.content}</p>
+
+<h1>hi</h1>
