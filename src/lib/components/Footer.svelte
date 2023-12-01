@@ -1,5 +1,5 @@
 <footer>
-  <p>&copy Calum Holt, Sterling Smith, Chad Cervantes</p>
+  <p>&copy 2023 Calum Holt, Sterling Smith, Chad Cervantes</p>
 </footer>
 
 <style>
