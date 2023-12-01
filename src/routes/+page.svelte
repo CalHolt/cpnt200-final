@@ -5,14 +5,14 @@
 </script>
 
 <Header />
-<slot />
+<!-- <slot /> -->
 
 <!--Hero Section Image-->
-<body>
+<div class="hero-section-image">
   <span>
     <h3>BLOG</h3>
   </span>
-</body>
+</div>
 
 <ul>
   {#each data.blog as post}
@@ -21,7 +21,7 @@
 </ul>
 
 <style>
-  body {
+  .hero-section-image {
     background-image: url("images/blog-hero-section-image.jpg");
     background-position: center;
     background-size: cover;
