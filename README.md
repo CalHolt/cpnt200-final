@@ -11,3 +11,5 @@ CPNT 200 - Headless Content Management Systems
 - Instructor help: Tony Grimes, Ashlyn Knox
 - [W3 Schools](https://www.w3schools.com/)
 - [Mozilla Developer](https://developer.mozilla.org/en-US/)
+- [Code Pen](https://codepen.io/your-work)
+- [CSS-Tricks](https://css-tricks.com/)
