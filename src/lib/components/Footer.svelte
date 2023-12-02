@@ -9,6 +9,8 @@
     background-color: darkcyan;
     padding: 10px;
     text-align: center;
+    border-top-left-radius: 50px 20px;
+    border-top-right-radius: 50px 20px
   }
 
   a {

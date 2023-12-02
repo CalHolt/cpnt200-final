@@ -37,6 +37,9 @@
     width: 100%;
 
     margin: 0;
+
+    border-bottom-left-radius: 50px 20px;
+    border-bottom-right-radius: 50px 20px;
   }
 
   h3 {
