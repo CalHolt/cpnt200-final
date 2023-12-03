@@ -86,7 +86,10 @@
     transform: scale(1.1);
     
     box-shadow: 0 0 40px black;
+  }
 
+  a:active {
+    color: orange;
   }
 </style>
 <Footer />
