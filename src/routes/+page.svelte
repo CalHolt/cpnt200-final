@@ -55,12 +55,41 @@
 
     padding-top: 13rem;
   }
+  
   .card {
-    background-color: brown;
-  }
-  .card:hover {
-    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
 
+    font-family:'Courier New', Courier, monospace;
+
+    transition: 400ms all;
+
+    border: 5px solid black;
+    border-radius: 25%;
+
+    width: 20vw;
+    height: 30vh;
+
+    text-align: center;
+
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+
+    padding: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .card:hover {
+    transform: scale(1.1);
+    
+    box-shadow: 0 0 40px black;
+  }
+
+  a:active {
+    color: orange;
   }
 </style>
 <Footer />
