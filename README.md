@@ -13,3 +13,4 @@ CPNT 200 - Headless Content Management Systems
 - [Mozilla Developer](https://developer.mozilla.org/en-US/)
 - [Code Pen](https://codepen.io/your-work)
 - [CSS-Tricks](https://css-tricks.com/)
+- [Pexels](https://www.pexels.com/)
