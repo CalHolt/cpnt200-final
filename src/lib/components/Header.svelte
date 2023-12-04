@@ -1,6 +1,6 @@
 <header>
   <div>
-    THE C.S.C CHRONICLES
+    <a href="/">THE C.S.C CHRONICLES</a>
   </div>
 </header>
 
@@ -20,5 +20,10 @@
     color: darkcyan;
 
     border-bottom: 10px solid;
+  }
+
+  a {
+    color: darkcyan;
+    text-decoration: none;
   }
 </style>

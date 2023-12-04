@@ -1,13 +1,17 @@
 <script>
   export let data;
+  import Header from '../../lib/components/Header.svelte';
+  import Footer from '../../lib/components/Footer.svelte';
 </script>
+
+<Header />
 
 <div class="slug">
   <h1>{data.title}</h1>
   <h2>{data.author}</h2>
   <p>{data.content}</p>
 </div>
-
+<Footer />
 <style>
   h1 {
     text-align: center;
