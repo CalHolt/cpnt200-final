@@ -17,12 +17,12 @@
 
 <div class="card-container">
   {#each data.blog as post}
-  <div class="card">
-  <a href="/{post.slug}">
-   <h1>{post.blog_title}</h1> 
-   <h2>{post.blog_author}</h2>
-  </a>
-</div>
+    <div class="card">
+      <a href="/{post.slug}">
+      <h1>{post.blog_title}</h1> 
+      <h2>{post.blog_author}</h2>
+      </a>
+    </div>
   {/each}
 </div>
 
@@ -59,7 +59,9 @@
   .card-container {
     padding: .5rem;
     display:grid;
-  justify-items: center;
+    justify-items: center;
+
+    margin: auto;
   }
 
   @media (width > 60rem){
@@ -71,7 +73,7 @@
   .card {
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: cyan;
 
     font-family:'Courier New', Courier, monospace;
 
@@ -80,7 +82,7 @@
     border: 5px solid black;
     border-radius: 25%;
 
-    width: 20vw;
+    width: 45vw;
     height: 30vh;
 
     text-align: center;
@@ -94,6 +96,11 @@
     padding-top: 1rem;
   }
 
+  h1, h2 {
+    margin: auto;
+    padding: 1.2rem;
+  }
+
   .card:hover {
     transform: scale(1.1);
     
@@ -102,6 +109,12 @@
 
   a:active {
     color: orange;
+  }  
+  
+  @media (width > 50rem) {
+    .card {
+      width: 20vw;
+    }
   }
 </style>
 <Footer />
