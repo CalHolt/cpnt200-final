@@ -60,7 +60,7 @@
 
   .card-container {
     padding: .5rem;
-    display:grid;
+    display: grid;
     justify-items: center;
 
     margin: auto;
@@ -75,17 +75,16 @@
   .card {
     display: flex;
     flex-wrap: wrap;
-    background-color: cyan;
+    background-color: whitesmoke;
 
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     transition: 400ms all;
 
     border: 5px solid black;
-    border-radius: 25%;
 
-    width: 60vw;
-    height: 48vh;
+    width: 70vw;
+    height: 61vh;
 
     text-align: center;
 
@@ -94,13 +93,13 @@
     margin-bottom: 1rem;
     align-items: center;
 
-    padding: 1.5rem;
-    padding-top: 1rem;
+    padding: 1rem;
   }
 
   h1, h2 {
     margin: auto;
-    padding: 1.2rem;
+    padding: 10px;
+    text-align: center;
   }
 
   .card:hover {
@@ -116,7 +115,7 @@
   @media (width > 50rem) {
     .card {
       width: 20vw;
-      height: 40vh;
+      height: 61vh;
     }
   }
 
@@ -126,6 +125,8 @@
 
   img {
     height: 200px;
+    width: 300px;
+    margin: auto;
   }
 </style>
 <Footer />
