@@ -5,7 +5,7 @@ CPNT 200 - Headless Content Management Systems
 ## Authors: Calum Holt, Chad Cervantes, Sterling Smith
 
 <!-- Insert Netlify link below in () -->
-### [Netlify Site]()
+### [Netlify Site](https://animated-speculoos-a29f1a.netlify.app/)
 
 ### Attributions
 - Instructor help: Tony Grimes, Ashlyn Knox
