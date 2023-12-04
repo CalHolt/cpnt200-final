@@ -116,5 +116,9 @@
       width: 20vw;
     }
   }
+
+  a {
+    text-decoration: none;
+  }
 </style>
 <Footer />
