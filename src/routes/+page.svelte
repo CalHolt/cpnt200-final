@@ -15,7 +15,7 @@
 </div>
 
 
-
+<div class="card-container">
   {#each data.blog as post}
   <div class="card">
   <a href="/{post.slug}">
@@ -24,7 +24,7 @@
   </a>
 </div>
   {/each}
-
+</div>
 
 <style>
   .hero-section-image {
@@ -55,6 +55,18 @@
 
     padding-top: 13rem;
   }
+
+  .card-container {
+    padding: .5rem;
+    display:grid;
+  justify-items: center;
+  }
+
+  @media (width > 60rem){
+  .card-container{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
   
   .card {
     display: flex;
