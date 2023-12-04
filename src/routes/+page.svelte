@@ -19,7 +19,8 @@
   {#each data.blog as post}
     <div class="card">
       <a href="/{post.slug}">
-      <h1>{post.blog_title}</h1> 
+      <h1>{post.blog_title}</h1>
+      <img src="../images/{post.blog_image}" alt="">
       <h2>{post.blog_author}</h2>
       <p>{post.blog_summary}</p>
       </a>
@@ -121,6 +122,10 @@
 
   a {
     text-decoration: none;
+  }
+
+  img {
+    height: 200px;
   }
 </style>
 <Footer />
