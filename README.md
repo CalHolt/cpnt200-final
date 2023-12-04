@@ -15,3 +15,6 @@ CPNT 200 - Headless Content Management Systems
 - [Code Pen](https://codepen.io/your-work)
 - [CSS-Tricks](https://css-tricks.com/)
 - [Images from pexels](https://www.pexels.com/)
+
+Images 
+- [Barcelona image for card](https://www.pexels.com/photo/aerial-photography-of-high-rise-buildings-1386444/)
