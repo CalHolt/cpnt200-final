@@ -5,10 +5,10 @@
 </script>
 
 <Header />
-<!-- <slot /> -->
 
 <!--Hero Section Image-->
-<div class="hero-section-image">
+<div class="hero-section">
+  <img src="../images/blog-hero-section-image.jpg" alt="" class="hero-section-image">
   <span>
     <h3>BLOG</h3>
   </span>
@@ -29,12 +29,7 @@
 </div>
 
 <style>
-  .hero-section-image {
-    background-image: url("../images/blog-hero-section-image.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+  .hero-section {
     height: 80vh;
     width: 100%;
 
@@ -42,6 +37,11 @@
 
     border-bottom-left-radius: 50px 20px;
     border-bottom-right-radius: 50px 20px;
+  }
+
+  .hero-section-image {
+    width: 97.9vw;
+    height: 80vh;
   }
 
   h3 {
@@ -56,6 +56,8 @@
     margin: auto;
 
     padding-top: 13rem;
+
+    margin-top: -35rem;
   }
 
   .card-container {
