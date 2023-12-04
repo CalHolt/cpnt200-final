@@ -30,7 +30,7 @@
 
 <style>
   .hero-section-image {
-    background-image: url("images/blog-hero-section-image.jpg");
+    background-image: url("../images/blog-hero-section-image.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

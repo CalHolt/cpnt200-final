@@ -14,4 +14,4 @@ CPNT 200 - Headless Content Management Systems
 - [Mozilla Developer](https://developer.mozilla.org/en-US/)
 - [Code Pen](https://codepen.io/your-work)
 - [CSS-Tricks](https://css-tricks.com/)
-- [Hero-Section image from pexels](https://www.pexels.com/photo/close-up-photo-of-camera-shutter-414781/)
+- [Images from pexels](https://www.pexels.com/)
