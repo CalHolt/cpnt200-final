@@ -21,6 +21,7 @@
       <a href="/{post.slug}">
       <h1>{post.blog_title}</h1> 
       <h2>{post.blog_author}</h2>
+      <p>{post.blog_summary}</p>
       </a>
     </div>
   {/each}
@@ -82,8 +83,8 @@
     border: 5px solid black;
     border-radius: 25%;
 
-    width: 45vw;
-    height: 30vh;
+    width: 60vw;
+    height: 48vh;
 
     text-align: center;
 
@@ -114,6 +115,7 @@
   @media (width > 50rem) {
     .card {
       width: 20vw;
+      height: 40vh;
     }
   }
 
