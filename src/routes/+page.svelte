@@ -85,7 +85,7 @@
 
     border: 5px solid black;
 
-    width: 70vw;
+    width: 66vw;
     height: 61vh;
 
     text-align: center;
@@ -98,7 +98,7 @@
     padding: 1rem;
   }
 
-  h1, h2 {
+  h1, h2, p {
     margin: auto;
     padding: 10px;
     text-align: center;
@@ -114,22 +114,28 @@
     color: orange;
   }  
   
-  @media (width > 50rem) {
+  @media (width > 60rem) {
     .card {
-      width: 20vw;
+      width: 24vw;
       height: 61vh;
     }
-  }
+    
+    img {
+      height: 100px;
+      width: 270px;
+      margin: auto;
+    } 
+   }
 
   a {
     text-decoration: none;
     color: black;
   }
-
-  img {
-    height: 200px;
-    width: 300px;
+  
+ img {
+    height: 140px;
+    width: 250px;
     margin: auto;
-  }
+    }
 </style>
 <Footer />
